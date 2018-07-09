@@ -183,6 +183,7 @@ div{
 ```
 
 一開始的結果大概是
+
 ![](img/delay0s.gif)
 
 假如這個時候給他delay了-4秒，就會:
@@ -195,4 +196,23 @@ div{
 }
 ```
 
+再來看看動畫，你會發現突然從綠色開始變色
+
 ![](img/delay-4s.gif)
+
+
+### animation-direction
+
+這是指動畫的播放方向，參數有下面四個:
+* normal：正常播放 `0% >>> 100%`
+* reverse：反轉播放，也就是所謂的逆再生 `100% >>> 0%`
+* alternate：先正再反，輪流播放  `0% >>> 100% >>> 0%`
+* alternate-reverse： 先反再正，輪流播放 `100% >>> 0% >>> 100%`
+
+這邊要注意的是，`alternate`和`alternate-reverse`假如上面設定的動畫播放次數只有一次(`animation-duration:1`)的話，那就只有正常播放(跟`normal`和`reverse`一樣)。
+
+### animation-timing-function
+
+這是對動畫進行加速度的函式，
+
+![](img/linear.png)
