@@ -9,3 +9,5 @@
 ### <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
 
 ### <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式  
+
+### <kbd>Javascript</kbd> AJAX基本
