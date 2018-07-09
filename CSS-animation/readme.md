@@ -17,21 +17,6 @@ div{
 
 當我們要進行動畫特效，也是需要寫個function去連結，`animation-name`自然是放那個函數的名字。而`animation-duration`指的是動畫的持續持間。
 
-注意的是，名稱可以不用字串包住。
-
-順手介紹一下跟動畫特效有關的屬性:
-
-屬性                     |預設值  |簡單說明
-:------------------------|:------|:---------------------------
-animation-name           |-      |動畫特效名稱
-animation-duration       |0      |此特效的持續時間
-animation-delay          |0      |此特效的延遲播放時間
-animation-direction      |normal |動畫播放方向，有個參數叫reverse，~~所謂的再生與逆再生~~
-animation-iteration-count|1      |播放循環次數，要無限循環就給他`infinite`
-animation-timing-function|ease   |動畫特效的加速度函式(好像可以回去看看JS說明(X))
-animation-fill-mode      |none   |播放前後模式
-animation-play-state     |running|動畫播放(`running`)/暫停(`paused`)
-
 ## Keyframes 關鍵影格
 
 聽起來就是~~曾經用過的FLASH裡會有的東西~~，使用方法跟Javascript有87分像，但他的基本用法是:
@@ -115,3 +100,99 @@ div{
 ![](img/to100.gif)
 
 說個不太重要的小事，其實`from`可以改成`0%`，`to`改成`100%`。
+
+## 相關屬性
+
+順手介紹一下跟動畫特效有關的屬性:
+
+屬性                     |預設值  |簡單說明
+:------------------------|:------|:---------------------------
+animation-name           |-      |動畫特效名稱
+animation-duration       |0      |此特效的持續時間
+animation-delay          |0      |此特效的延遲播放時間
+animation-direction      |normal |動畫播放方向，有個參數叫reverse，~~所謂的再生與逆再生~~
+animation-iteration-count|1      |播放循環次數，要無限循環就給他`infinite`
+animation-timing-function|ease   |動畫特效的加速度函式(好像可以回去看看JS說明(X))
+animation-fill-mode      |none   |播放前後模式
+animation-play-state     |running|動畫播放(`running`)/暫停(`paused`)
+
+### animation-name
+
+`animation-name`就是指這個動畫特效的名字。有趣的是，名稱可以不用字串包住，所以這樣下面三種打法都是沒有問題的:
+
+```css
+@keyframes 'test'{...}
+@keyframes "test"{...}
+@keyframes test{...}
+```
+
+另外，若想要特別用特殊字元，只要把名字包起來就可以了。
+
+```css
+@keyframes 'inline' {...}
+@keyframes 'initial' { ... }
+```
+
+### animation-duration
+
+這邊指的是播放**"一次"**動畫所需的時間，要加上使用時間的單位(s/ms)。
+
+```css
+div{
+    animation-duration:20s;
+    animation-duration:20000ms; 
+    /* 20000毫秒，也是20秒 */
+}
+```
+
+### animation-delay 
+
+這是指這個動畫**要等多久後才開始播放**，要加上使用時間的單位(s/ms)。
+
+```css
+div{
+    animation-delay:2s;
+    animation-delay:2000ms; 
+    /* 2000毫秒，也是2秒 */
+}
+```
+
+不過有趣的是，這邊若直接給他負值，就會直接跳到**扣除動畫持續的時間**(也就是`animation-duration`)。
+
+看不懂沒關係，假如我給了10秒的動畫，卻在`animation-delay`給了他`-2s`，那就會直接掉前面那兩秒，從第二秒開始播放。
+
+舉個例子，我們給了上面的彩虹變色例子，讓背景用8秒時間變化，設定成:
+
+```css
+@keyframes test{
+    0%{background:#FFFFFF;}
+    12.5%{background:#FF0000;}
+    25%{background:#FF7F00;}
+    37.5%{background:#FFFF00;}
+    50%{background:#00FF00;}
+    62.5%{background:#00FFFF;}
+    75%{background:#0000FF;}
+    87.5%{background:#8B00FF;}
+    100%{background:#000000;}
+}
+
+div{
+  animation-name: test;
+  animation-duration: 8s;
+}
+```
+
+一開始的結果大概是
+![](img/delay0s.gif)
+
+假如這個時候給他delay了-4秒，就會:
+
+```css
+div{
+  animation-name: test;
+  animation-duration: 8s;
+  animation-delay: -4s;
+}
+```
+
+![](img/delay-4s.gif)
