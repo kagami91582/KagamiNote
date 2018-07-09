@@ -40,6 +40,7 @@ AJAX = Asynchronous JavaScript and XML
 ```
 
 實際上在網路上若有支援json格式的顯示，會變成這樣
+
 ![](https://i.imgur.com/pfriLY5.png)
 
 ### XML
