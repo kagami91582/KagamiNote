@@ -88,6 +88,14 @@ $.getJSON('https://httpbin.org/ip',function(data){
 ## 練習部分
 *使用httpbin的資料進行測試 https://httpbin.org*
 
-IP位置(FCC練習增加) https://kagami91582.github.io/mono-test/AJAXTest/index.html
-JSON檔案 https://kagami91582.github.io/mono-test/AJAXTest/index2.html
-XML檔案 https://kagami91582.github.io/mono-test/AJAXTest/index3.html
+IP位置(FCC練習增加) 
+
+https://kagami91582.github.io/mono-test/AJAXTest/index.html
+
+JSON檔案 
+
+https://kagami91582.github.io/mono-test/AJAXTest/index2.html
+
+XML檔案 
+
+https://kagami91582.github.io/mono-test/AJAXTest/index3.html
