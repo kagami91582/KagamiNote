@@ -86,7 +86,9 @@ $.getJSON('https://httpbin.org/ip',function(data){
 ```
 
 ## 練習部分
-*使用httpbin的資料進行測試 https://httpbin.org*
+使用httpbin的資料進行測試 
+
+https://httpbin.org
 
 IP位置(FCC練習增加) 
 
