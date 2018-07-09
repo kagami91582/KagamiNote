@@ -4,6 +4,8 @@
 
 ## 目前存放的
 
-### <kbd>CSS3</kbd> animation 基本動畫特效
+### <kbd>CSS3</kbd> Animation 輕鬆起手式  (未完成)
 
-### <kbd>Markdown</kbd> table 在MD裡面畫表格
+### <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
+
+### <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式  
