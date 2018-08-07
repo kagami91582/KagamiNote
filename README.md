@@ -8,6 +8,8 @@
 
 ### <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
 
-### <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式  
+### <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式 (未完成)
 
-### <kbd>Javascript</kbd> AJAX基本
+### <kbd>Javascript</kbd> AJAX基本 (未完成)
+
+### <kbd>HTML</kbd> HTML狀態碼 有看沒有懂? (未完成)
