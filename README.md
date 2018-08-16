@@ -4,6 +4,10 @@
 
 ## 目前存放的
 
+### <kbd>Python</kbd> <kbd>django2</kbd> [csrf_token 出現的bug](https://github.com/kagami91582/KagamiNote/blob/master/django-csrf_token.md)
+
+## 尚未完成的
+
 ### <kbd>CSS3</kbd> Animation 輕鬆起手式  (未完成)
 
 ### <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
