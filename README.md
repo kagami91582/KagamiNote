@@ -4,7 +4,7 @@
 
 ## 目前存放的
 
-### <kbd>Python</kbd> <kbd>django2</kbd> [csrf_token 出現的bug](https://github.com/kagami91582/KagamiNote/blob/master/django-csrf_token.md)
+### <kbd>Python</kbd> <kbd>django2</kbd> [csrf_token 出現的bug](https://github.com/kagami91582/KagamiNote/tree/master/django-csrf_token)
 
 ## 尚未完成的
 
