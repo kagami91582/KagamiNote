@@ -1,5 +1,7 @@
 # Mackbook Pro 重灌筆記
 
+> 筆記位置: [HackMD](https://hackmd.io/@DNPd83QQQz-5MX66cVDQKQ/kagami_macbook_install)
+
 久違復活的Gary說個Hi，鑑於最近主力的筆電開始無法負荷了所以就有了這次計畫，順手做了筆記來放個。當然要先說個，每個電腦與設備環境，產生出來的化學效果(咦?)都不一樣，這邊就給大家做個參考，那就開始囉。
 
 ## 前因
