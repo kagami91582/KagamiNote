@@ -4,16 +4,18 @@
 
 ## 目前存放的
 
-### <kbd>Python</kbd> <kbd>django2</kbd> [csrf_token 出現的bug](https://github.com/kagami91582/KagamiNote/tree/master/django-csrf_token)
+* <kbd>Python</kbd> <kbd>django2</kbd> [csrf_token 出現的bug](https://github.com/kagami91582/KagamiNote/tree/master/django-csrf_token)
+
+* <kbd>nginx</kbd> <kbd>macOS</kbd> [Nginx 簡易清除指南](https://github.com/kagami91582/KagamiNote/tree/master/Nginx/Uninstall_nginx.md)
 
 ## 尚未完成的
 
-### <kbd>CSS3</kbd> Animation 輕鬆起手式  (未完成)
+* <kbd>CSS3</kbd> Animation 輕鬆起手式  (未完成)
 
-### <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
+* <kbd>Markdown</kbd> table 在MD裡面畫表格  (未完成)
 
-### <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式 (未完成)
+* <kbd>CSS</kbd> <kbd>Sass</kbd> 初見SCSS 一天開竅起手式 (未完成)
 
-### <kbd>Javascript</kbd> AJAX基本 (未完成)
+* <kbd>Javascript</kbd> AJAX基本 (未完成)
 
-### <kbd>HTML</kbd> HTML狀態碼 有看沒有懂? (未完成)
+* <kbd>HTML</kbd> HTML狀態碼 有看沒有懂? (未完成)
